@@ -20,7 +20,7 @@ const Login = ({ userLogin }) => {
         event.preventDefault()
         userLogin(state)
         setTimeout(()=>{
-            navigate("/additem", {replace:true})
+            navigate("/add_item", {replace:true})
         },2000)
        
     }
